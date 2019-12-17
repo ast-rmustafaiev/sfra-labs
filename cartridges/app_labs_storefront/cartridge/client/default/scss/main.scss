@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@import "base/variables";
+@import "bootstrap/scss/bootstrap";
+@import "base/bootstrap_overrides";
+@import "base/utilities/responsiveUtils";
+@import "font-awesome/scss/font-awesome";
+@import "flag-icon";
+@import "components/menu";
+@import "base/components/common";
+@import "base/components/footer";
+@import "components/footer";
+@import "base/components/hero";
+@import "base/components/notification";
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.modal-background {
+  display: none !important;
+}
