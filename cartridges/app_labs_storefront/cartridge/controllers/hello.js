@@ -8,8 +8,8 @@ server.get('Show', function (req, res, next) {
         name: 'testname',
         email: 'testemail@astoundcommerce.com',
         type: 'object'
-    }
-    res.render('hello/helloTemplate', {testObject: testObject});
+    };
+    res.render('lab1/helloTemplate', { testObject: testObject });
     next();
 });
 

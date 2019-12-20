@@ -1,0 +1,11 @@
+<!--- TEMPLATENAME: helloTemplate.isml --->
+<iscontent type="text/html" charset="UTF-8" compact="true" />
+
+<html>
+<head>
+    <title>${ Resource.msg('title') }</title>
+</head>
+<body>
+<span> ${JSON.stringify(pdict.testObject)} </span>
+</body>
+</html>
