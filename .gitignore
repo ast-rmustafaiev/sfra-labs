@@ -1,8 +1,10 @@
 node_modules/
 
-cartridges/app_storefront_base/cartridge/static/
-cartridges/app_labs_storefront/cartridge/static/
-cartridges/app_stub_storefront/cartridge/static/
+/cartridges/modules/
+/cartridges/app_storefront_base/
+/cartridges/app_labs_storefront/cartridge/static/
+/cartridges/app_stub_storefront/cartridge/static/
+
 
 coverage/
 npm-debug.log
