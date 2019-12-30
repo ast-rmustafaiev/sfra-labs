@@ -25,3 +25,5 @@ test/appium/webdriver/config.json
 test/acceptance/report
 test/integration/config.json
 package-lock.json
+/cartridges/modules/
+/cartridges/app_storefront_base/
