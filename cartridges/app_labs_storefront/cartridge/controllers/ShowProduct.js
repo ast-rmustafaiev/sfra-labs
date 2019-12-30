@@ -2,7 +2,7 @@
 var server = require('server');
 var ProductMgr = require('dw/catalog/ProductMgr');
 
-server.get('Main', function (req, res, next) {
+server.get('Start', function (req, res, next) {
     var queryObj = req.querystring;
     var productId = queryObj && queryObj['pid'];
     var product = productId && ProductMgr.getProduct(productId);

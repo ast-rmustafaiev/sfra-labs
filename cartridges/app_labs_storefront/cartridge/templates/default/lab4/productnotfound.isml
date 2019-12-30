@@ -1,0 +1,10 @@
+<html>
+<head>
+    <title>${ Resource.msg('product.notfound', 'Product not found') }</title>
+</head>
+<body>
+<h1>
+    <isprint value="${pdict.Message}"/>
+</h1>
+</body>
+</html>

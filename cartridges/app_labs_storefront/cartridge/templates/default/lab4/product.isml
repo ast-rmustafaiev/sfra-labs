@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>${ Resource.msg('product.show', 'Show Product') }</title>
+</head>
+<body>
+<h1>
+    <isprint value="${pdict.Product.name}"/>
+</h1>
+<p>
+    <isprint value="${pdict.Product.shortDescription}"/>
+</p>
+</body>
+</html>
