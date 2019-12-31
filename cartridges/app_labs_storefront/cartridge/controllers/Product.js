@@ -1,14 +1,13 @@
 'use strict'
 
-var page = require('app_storefront_base/cartridge/controllers/Product');
 var server = require('server');
+var page = module.superModule;
 
 server.extend(page);
 
-server.replace('Show', server.middleware.get, function (req, res, next) {
-    res.render('lab8/productreplace');
+server.append('Show', function (req, res, next) {
+    // do nothing
     next();
 });
 
 module.exports = server.exports();
-
