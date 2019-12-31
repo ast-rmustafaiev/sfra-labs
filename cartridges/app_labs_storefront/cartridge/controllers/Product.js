@@ -32,3 +32,17 @@ server.append('Show', function (req, res, next) {
 });
 
 module.exports = server.exports();
+
+/*
+var page = require('* /cartridge/controller/Product');
+var server = require('server');
+
+server.extend(page);
+
+server.replace('Variation', server.middleware.get, function (req, res, next) {
+    res.render('lab8/productreplace');
+    next();
+});
+
+module.exports = server.exports();
+*/
