@@ -1,13 +1,14 @@
-<html>
-<head>
-    <title>${ Resource.msg('product.show', 'Show Product') }</title>
-</head>
-<body>
-<h1>
-    <isprint value="${pdict.Product.name}"/>
-</h1>
-<p>
-    <isprint value="${pdict.Product.shortDescription}"/>
-</p>
-</body>
-</html>
+<isdecorate template="common/layout/page">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets');
+        assets.addJs('/js/productTile.js');
+        assets.addCss('/css/product/detail.css')
+    </isscript>
+
+    <h1>
+        <isprint value="${pdict.Product.name}"/>
+    </h1>
+    <p>
+        <isprint value="${pdict.Product.shortDescription}"/>
+    </p>
+</isdecorate>
