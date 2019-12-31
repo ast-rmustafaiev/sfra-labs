@@ -1,0 +1,10 @@
+<iscontent type="text/html" charset="UTF-8" compact="true" />
+
+<html>
+<head>
+    <title>Cache info</title>
+</head>
+<body>
+    <isprint value="${Date()}" style="DATE_TIME"/>
+</body>
+</html>
