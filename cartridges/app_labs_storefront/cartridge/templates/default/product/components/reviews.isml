@@ -1,0 +1,11 @@
+<div class="col-sm-12 col-md-8 col-lg-9 value content">
+    <isloop items="${pdict.product.reviews}" var="review">
+        <isset name="rating" value="${review.rating}" scope="page" />
+        <div class="rating">
+            <isinclude template="product/components/ratings" />
+        </div>
+        <div class="reviewText">
+            <isprint value="${review.text}" encoding="off" />
+        </div>
+    </isloop>
+</div>

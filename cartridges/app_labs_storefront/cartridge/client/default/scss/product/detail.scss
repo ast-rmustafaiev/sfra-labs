@@ -1,0 +1,12 @@
+@import "~base/product/detail";
+
+.description-and-detail {
+    margin-top: 2em;
+
+    .details {
+
+        @include media-breakpoint-up(sm) {
+            margin-bottom: 2em;
+        }
+    }
+}
