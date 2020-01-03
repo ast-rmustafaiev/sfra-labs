@@ -1,9 +1,7 @@
 'use strict';
 var server = require('server');
-var URLUtils = require('dw/web/URLUtils');
 
 server.post('Show', function (req, res, next) {
-
     var firstname = req.form.firstname;
     var lastname = req.form.lastname;
     var email = req.form.email;

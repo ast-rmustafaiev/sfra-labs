@@ -8,7 +8,7 @@ server.get('Show', function (req, res, next) {
     var customForm = server.forms.getForm('customForm');//creates empty JSON object using the form definition
     customForm.clear();
 
-    res.render('custom/customPage', {
+    res.render('lab12/customPage', {
         actionUrl: actionUrl,
         customForm: customForm
     });
