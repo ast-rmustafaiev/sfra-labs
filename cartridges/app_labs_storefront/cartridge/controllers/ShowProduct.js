@@ -6,6 +6,7 @@ server.get('Start', function (req, res, next) {
     var queryObj = req.querystring;
     var productId = queryObj && queryObj['pid'];
     var product = productId && ProductMgr.getProduct(productId);
+    var clickStream = req.session.clickStream;
 
     if (product) {
         res.render('lab4/product', { Product: product });
